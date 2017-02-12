@@ -11,6 +11,7 @@
 		7B2E6E6E1E50E20D003A22E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */; };
 		7B2E6E701E50E20D003A22E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2E6E6F1E50E20D003A22E0 /* Assets.xcassets */; };
 		7B2E6E731E50E20D003A22E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2E6E711E50E20D003A22E0 /* Main.storyboard */; };
+		7B2E6E7B1E50E57D003A22E0 /* Base64ValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7B2E6E6F1E50E20D003A22E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B2E6E721E50E20D003A22E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2E6E741E50E20D003A22E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64ValueTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				7B2E6E6B1E50E20D003A22E0 /* AppDelegate.swift */,
 				7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */,
+				7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */,
 				7B2E6E6F1E50E20D003A22E0 /* Assets.xcassets */,
 				7B2E6E711E50E20D003A22E0 /* Main.storyboard */,
 				7B2E6E741E50E20D003A22E0 /* Info.plist */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2E6E6E1E50E20D003A22E0 /* ViewController.swift in Sources */,
+				7B2E6E7B1E50E57D003A22E0 /* Base64ValueTransformer.swift in Sources */,
 				7B2E6E6C1E50E20D003A22E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
