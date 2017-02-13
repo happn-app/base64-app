@@ -18,7 +18,6 @@ class ViewController: NSViewController {
 		super.viewDidLoad()
 		
 		textView.font = textView.font
-		textView.string = ""
 		
 		textView.isAutomaticSpellingCorrectionEnabled = false
 		textView.isAutomaticQuoteSubstitutionEnabled = false
@@ -28,11 +27,6 @@ class ViewController: NSViewController {
 		textView.isAutomaticLinkDetectionEnabled = false
 		textView.smartInsertDeleteEnabled = false
 		textView.isGrammarCheckingEnabled = false
-	}
-	
-	override var representedObject: Any? {
-		didSet {
-		}
 	}
 	
 }
