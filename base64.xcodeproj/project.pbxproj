@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2D0CAB22F1CCBF0010B48F /* base64.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = base64.entitlements; sourceTree = "<group>"; };
 		7B2E6E681E50E20D003A22E0 /* base64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = base64.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2E6E6B1E50E20D003A22E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		7B2E6E6A1E50E20D003A22E0 /* base64 */ = {
 			isa = PBXGroup;
 			children = (
+				7B2D0CAB22F1CCBF0010B48F /* base64.entitlements */,
 				7B2E6E6B1E50E20D003A22E0 /* AppDelegate.swift */,
 				7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */,
 				7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */,
@@ -91,11 +93,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = happn;
 				TargetAttributes = {
 					7B2E6E671E50E20D003A22E0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M8JS42FSNG;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -268,7 +271,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = base64/base64.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M8JS42FSNG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = base64/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.ftw-and-co.base64";
@@ -281,7 +288,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = base64/base64.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M8JS42FSNG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = base64/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.ftw-and-co.base64";
