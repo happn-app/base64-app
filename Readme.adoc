@@ -1,0 +1,7 @@
+= base64
+François Lamboley <francois.lamboley@happn.com>
+
+A very small app that shows a text and its base64 representation. The text and the base64 representations can be modified, the other is updated instantly.
+
+== Why This App?
+Because it is convenient. Especially when you’re an ops working with k8s!

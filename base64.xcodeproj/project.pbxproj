@@ -23,6 +23,8 @@
 		7B2E6E721E50E20D003A22E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2E6E741E50E20D003A22E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64ValueTransformer.swift; sourceTree = "<group>"; };
+		7B89F94024D2FD4300AC25EC /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		7B89F94324D2FE4000AC25EC /* Readme.adoc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.adoc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,8 @@
 		7B2E6E5F1E50E20D003A22E0 = {
 			isa = PBXGroup;
 			children = (
+				7B89F94024D2FD4300AC25EC /* License.txt */,
+				7B89F94324D2FE4000AC25EC /* Readme.adoc */,
 				7B2E6E6A1E50E20D003A22E0 /* base64 */,
 				7B2E6E691E50E20D003A22E0 /* Products */,
 			);
