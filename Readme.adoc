@@ -1,6 +1,13 @@
 = base64
 François Lamboley <francois.lamboley@happn.com>
 
+---
+
+NOTE: This repo is no longer maintained by happn. +
+A maintained version is available from its creator at https://github.com/Frizlab/Base-64[Frizlab/Base-64].
+
+---
+
 A very small app that shows a text and its base64 representation. The text and the base64 representations can be modified, the other is updated instantly.
 
 == Why This App?
